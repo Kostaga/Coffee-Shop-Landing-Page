@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Raleway:wght@400;500;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="icon" type="image/x-icon" href="img/v1033-bb-094.jpg">
+
+	<title>Espresso Yourself</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body>
+	<!-- Container Start -->
+	<div class="main-container">
+		<!-- Navigation Bar Start -->
+		<nav class="navbar fixed-top navbar-expand-lg" id="header">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="index.html"><img src="img/v1033-bb-094.jpg" alt="logo"></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				  <li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#home">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#facilities">Facilities</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#menu">Menu</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#contact">Contact us</a>
+				  </li>
+				</ul>
+				<div class="modes">
+				<svg class="light_mode" style="cursor:pointer;" id="light_mode" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
+					<path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+				  </svg>
+				<svg  id="dark_theme" style="cursor:pointer;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+					<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+				  </svg>
+				</div>
+				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+					<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+				  </svg></a>
+			  </div>
+			</div>
+		  </nav>
+		<!-- Navigation Bar End -->
+
+		<!-- Home -->
+		<section class="home" id="home">
+			<div class="home-text">
+				<h2>Welcome to Espresso Yourself</h2>
+				<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam tenetur dolores perspiciatis quibusdam quasi ipsum odit necessitatibus nihil voluptas.</h3>
+
+				<button type="button" class="btn btn-primary"><a href=#facilities>Learn More</a></button>
+				<button type="button" href="#contact" class="btn btn-secondary"><a href=#contact>Contact us</a></button>
+			</div>
+
+			<img alt="home-page-1" src="img/coffee2.jpg" class="coffee_img">;
+
+		</section>
+		<!-- End home page -->
+
+		<!-- In Between -->
+		<section class="between-home">
+				<img alt="coffee" class="between-img" src="img/coffee1.jpg">
+				<div class="info-between">
+					<h2>A Cup Of Coffee Can Complete Your Day</h2>
+					<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, minima nihil! Iste odit perferendis debitis deserunt, ipsam aperiam adipisci delectus laudantium totam nisi assumenda optio?</h3>
+
+					<button type="button" class="btn btn-info"><a class="menu_btn" href=#menu>Our Menu</a></button>
+				
+				</div>
+		</section>
+		<!--  -->
+
+		<section class="features" id="facilities">
+				<h2>Our Facilities</h2>
+				<div class="facilities">
+				<div class="facility">
+					<div class="card text-center" style="width: 25rem;">
+						<svg class="icons" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-cup-hot" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5ZM2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175Z"/>
+							<path d="m4.4.8-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 3.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8Zm3 0-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 6.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8Zm3 0-.003.004-.014.019a4.077 4.077 0 0 0-.204.31 2.337 2.337 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.198 3.198 0 0 1-.202.388 5.385 5.385 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 9.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8Z"/>
+						  </svg>
+						<div class="card-body">
+						  <h5 class="card-title">Varieties of Coffees</h5>
+						  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, alias!</p>
+				
+						</div>
+					  </div>
+				</div>
+
+				
+
+				<div class="facility">
+					<div class="card text-center" style="width: 25rem;">
+						<svg class="icons" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-trash2" viewBox="0 0 16 16">
+							<path d="M14 3a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2zM3.215 4.207l1.493 8.957a1 1 0 0 0 .986.836h4.612a1 1 0 0 0 .986-.836l1.493-8.957C11.69 4.689 9.954 5 8 5c-1.954 0-3.69-.311-4.785-.793z"/>
+						  </svg>
+						<div class="card-body">
+						  <h5 class="card-title">Coffee Beans</h5>
+						  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, libero!</p>
+					
+						</div>
+					  </div>
+					</div>
+					<div class="facility">
+						<div class="card text-center" style="width: 25rem;">
+							<svg class="icons" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-egg-fried" viewBox="0 0 16 16">
+								<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+								<path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
+							  </svg>
+							<div class="card-body">
+							  <h5 class="card-title">Breakfast and Sweets</h5>
+							  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iusto.</p>
+				
+							</div>
+						  </div>
+						</div>
+					</div>
+
+					<div class="offer">
+						<h2>Because we love <span class="fridays">Fridays</span>, you get a cup of Cappuccino or Latte FREE with every coffee.
+						Don't miss the offer!
+						</h2>
+
+						<div id="timer">00:00:00</div>
+					</div>
+		
+		</section>
+		<!-- facilities end -->
+
+		<!-- menu-start -->
+		<section id="menu" class="menu">
+			<h2>Our menu</h2>
+
+			<div class="filters">
+				<button type="button" class="btn btn-outline-info">Coffee</button>
+				<button type="button" class="btn btn-outline-danger">Breakfast</button>
+				<button type="button" class="btn btn-outline-warning">Shakes</button>
+				<button type="button" class="btn btn-outline-secondary">All</button>
+			</div>
+
+			<div id="menu-items" class="menu-container">
+
+			<div class="menu-item">
+				<img alt="menu-1" src="https://tripletwocoffee.com/wp-content/uploads/Mocha-from-above.jpg">
+				<h3>Mocha Coffee</h3>
+				<h4>2.50€</h4>
+			</div>
+			</div>
+
+			<!-- menu-end -->	
+		</section>
+
+		<section class="contact-us" id="contact">
+
+			<div class="container my-5">
+				<div class="row justify-content-center">
+				  <div class="col-lg-9">
+					<h1 class="mb-3">Contact Us</h1>
+					<form>
+					  <div class="row g-3">
+						<div class="col-md-6">
+						  <label for="your-name" class="form-label">Your Name</label>
+						  <input type="text" class="form-control" id="your-name" name="your-name" required>
+						</div>
+						<div class="col-md-6">
+						  <label for="your-surname" class="form-label">Your Surname</label>
+						  <input type="text" class="form-control" id="your-surname" name="your-surname" required>
+						</div>
+						<div class="col-md-6">
+						  <label for="your-email" class="form-label">Your Email</label>
+						  <input type="email" class="form-control" id="your-email" name="your-email" required>
+						</div>
+						<div class="col-md-6">
+						  <label for="your-subject" class="form-label">Your Subject</label>
+						  <input type="text" class="form-control" id="your-subject" name="your-subject">
+						</div>
+						<div class="col-12">
+						  <label for="your-message" class="form-label">Your Message</label>
+						  <textarea class="form-control" id="your-message" name="your-message" rows="5" required></textarea>
+						</div>
+						<div class="col-12">
+						  <div class="row">
+							<div class="col-md-6">
+							  <button data-res="<?php echo $sum; ?>" type="submit" class="btn btn-dark w-100 fw-bold" style="background-color: var(--black_mode); color: var(--white_mode);" >Send</button>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</form>
+				  </div>
+				</div>
+			  </div>
+
+		</section>
+
+		<footer class="made-by">Made By Konstantinos Agathopoulos 2023</footer>
+
+	</div>
+	<!-- Container End -->
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
